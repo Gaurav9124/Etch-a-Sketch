@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
 
-    <h1>Etch-a-Sketch</h1>
-    <input class="grid-dimensions" type="text" placeholder="enter grid dimensions">
-    <button class="grid-dimensions" id="button">enter</button>
+    <div class="main">
+        <h1>Etch-a-Sketch</h1>
+        <h2 id="dimen">d</h2>
+        <div class="head">
+            <label for="dimensions">Dimensions</label>
+            <input type="range" name="" id="dimensions" min="1" max="100" aria-orientation="vertical">
+
+            <label for="color">Color</label>
+            <input type="color" id="color">
+        </div>
+    </div>
 
     <div class="container">
 
     </div>
-
-    <button id="eraser" class="button">ERASE</button>
-    <button id="reset" class="button">RESET</button>
-
     
 
     <script src="app.js"></script>
