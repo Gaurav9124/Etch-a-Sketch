@@ -1,0 +1,30 @@
+* {
+  color: purple;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  /* border: 1px solid black; */
+}
+
+.pixel {
+  background-color: azure;
+  box-sizing: border-box;
+}
+
+.grid-dimensions {
+  padding: 20px;
+  margin: 20px;
+  font-size: large;
+}
+
+.button {
+  margin-top: 50px;
+  padding: 20px;
+}
