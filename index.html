@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-a-Sketch</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main">
-        <h1>Etch-a-Sketch</h1>
-        <h2 id="dimen">d</h2>
-        <div class="head">
-            <label for="dimensions">Dimensions</label>
-            <input type="range" name="" id="dimensions" min="1" max="100" aria-orientation="vertical">
-
-            <label for="color">Color</label>
-            <input type="color" id="color">
-        </div>
+      <div class="buttons">
+        <button id="visible">Grid</button>
+        <button id="reset">Reset</button>
+        <button id="eraser">Eraser</button>
+        <button id="Magic">Magic</button>
+        <input id="brush-color" style="width: 50px; height: 40px;" type="color">
+      </div>
+      <div class="sketch-book" id="container"></div>
+      <input id="Dimension-bar" type="range" min="1" max="100" />
+      <h3 id="resolution"> 50 x 50</h3>
     </div>
-
-    <div class="container">
-
-    </div>
-    
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
